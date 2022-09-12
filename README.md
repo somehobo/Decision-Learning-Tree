@@ -1,4 +1,5 @@
 # Decision-Tree-Learning
+[![C++ CI](https://github.com/somehobo/Decision-Tree-Learning/actions/workflows/actions.yml/badge.svg)](https://github.com/somehobo/Decision-Tree-Learning/actions/workflows/actions.yml)
 ## Implemented using the CART algorithm
 
 Decision Tree Learning refers to predictive modeling algorithms that form trees to make predictions. For this project I focused on the CART or Classification and 
