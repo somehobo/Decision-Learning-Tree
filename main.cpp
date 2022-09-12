@@ -10,6 +10,8 @@
 
 using namespace std;
 
+static const string fileName = "banknotes.cpp";
+
 vector<float> decision_tree(vector<vector<float> > train, vector<vector<float> > test,
                   int max_depth, int min_size);
 //struct to store split values
@@ -23,7 +25,7 @@ struct split{
 };
 
 vector<vector<float> > convert(){//convert text data to a 2d dataset
-  ifstream bankNotes ("banknotes.txt");
+  ifstream bankNotes (fileName);
   string curNum;
   vector<vector<float> > dataset;
   vector<float> temp;
