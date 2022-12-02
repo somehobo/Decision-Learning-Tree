@@ -1,0 +1,51 @@
+Enter number of folds (the higher, the longer it takes)
+Enter number of folds (the higher, the longer it takes)
+Enter number of folds (the higher, the longer it takes)
+Enter number of folds (the higher, the longer it takes)
+Enter number of folds (the higher, the longer it takes)
+Enter number of folds (the higher, the longer it takes)
+Enter number of folds (the higher, the longer it takes)
+Enter number of folds (the higher, the longer it takes)
+Enter number of folds (the higher, the longer it takes)
+Enter number of folds (the higher, the longer it takes)
+Enter number of folds (the higher, the longer it takes)
+Enter max depth of the tree
+Enter minimum split data size
+Working... this might take awhile, go get a coffee
+Enter number of folds (the higher, the longer it takes)
+Enter max depth of the tree
+Enter minimum split data size
+Working... this might take awhile, go get a coffee
+Enter number of folds (the higher, the longer it takes)
+Enter max depth of the tree
+Enter minimum split data size
+Working... this might take awhile, go get a coffee
+Percentage accuracy per fold: 
+96.5015 96.5015 95.0437 97.0845 Average accuracy = 96.2828
+Time elapsed 53.189155 
+Enter number of folds (the higher, the longer it takes)
+Enter max depth of the tree
+Enter minimum split data size
+Working... this might take awhile, go get a coffee
+Enter number of folds (the higher, the longer it takes)
+Enter max depth of the tree
+Enter minimum split data size
+Working... this might take awhile, go get a coffee
+Enter number of folds (the higher, the longer it takes)
+Enter max depth of the tree
+Enter minimum split data size
+Working... this might take awhile, go get a coffee
+Enter number of folds (the higher, the longer it takes)
+Enter max depth of the tree
+Enter minimum split data size
+Working... this might take awhile, go get a coffee
+Percentage accuracy per fold: 
+42.5656 82.7988 41.9825 44.3149 Average accuracy = 52.9155
+Time elapsed 20.749242 
+Enter number of folds (the higher, the longer it takes)
+Enter max depth of the tree
+Enter minimum split data size
+Working... this might take awhile, go get a coffee
+Percentage accuracy per fold: 
+42.5656 82.7988 41.9825 44.3149 Average accuracy = 52.9155
+Time elapsed 20.725524 

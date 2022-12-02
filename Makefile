@@ -1,8 +1,8 @@
-INCLUDE_DIRS = 
-LIB_DIRS = 
-#CC = icc
-CC = gcc
-CPP = g++
+INCLUDE_DIRS = -I/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/include/
+LIB_DIRS = -L/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/debug -L/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib
+CC = mpicc
+CXX = mpicxx
+C++ = g++
 
 CDEFS=
 CFLAGS= -g -fopenmp $(INCLUDE_DIRS) $(CDEFS)
@@ -25,9 +25,9 @@ clean:
 
 
 sequential_CART:	sequential_CART.cpp
-	$(CPP) $(CFLAGS) -o $@ sequential_CART.cpp -lm
+	$(C++) $(CFLAGS) -o $@ sequential_CART.cpp -lm
 
 parallel_CART:	parallel_CART.cpp
-	$(CPP) $(CFLAGS) -o $@ parallel_CART.cpp -lm
+	$(CXX) $(CFLAGS) -o $@ parallel_CART.cpp -lm
 
 
